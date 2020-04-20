@@ -1,0 +1,8 @@
+- name: flv
+  extensions: [ flv, f4v, f4p, f4a, f4b ]
+- name: ogg
+  extensions: [ ogg, ogv, oga, ogx, spx, opus, ogm ]
+- name: webm
+  extensions: [ webm ]
+- name: mpeg
+  extensions: [ mp4 ]

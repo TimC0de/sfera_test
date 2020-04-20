@@ -1,0 +1,32 @@
+name: mpeg
+settings:
+  - name: duration
+    offset: 16
+    length: 4
+    wrapperName: mvhd
+    parsingType: 1
+  - name: width
+    offset: 40
+    length: 2
+    wrapperName: stsd#0
+    parsingType: 1
+  - name: height
+    offset: 42
+    length: 2
+    wrapperName: stsd#0
+    parsingType: 1
+  - name: videoCodecID
+    offset: 12
+    length: 4
+    wrapperName: stsd#0
+    parsingType: 2
+  - name: audioCodecID
+    offset: 12
+    length: 4
+    wrapperName: stsd#1
+    parsingType: 2
+  - name: audioBitRate
+    offset: 56
+    length: 4
+    wrapperName: stsd#1
+    parsingType: 1

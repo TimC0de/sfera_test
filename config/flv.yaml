@@ -1,0 +1,37 @@
+name: flv
+settings:
+  - name: duration
+    offset: 1
+    length: 8
+    wrapperName: duration
+    parsingType: 3
+  - name: width
+    offset: 1
+    length: 8
+    wrapperName: width
+    parsingType: 3
+  - name: height
+    offset: 1
+    length: 8
+    wrapperName: height
+    parsingType: 3
+  - name: videoBitRate
+    offset: 1
+    length: 8
+    wrapperName: videodatarate
+    parsingType: 3
+  - name: videoCodecID
+    offset: 1
+    length: 8
+    wrapperName: videocodecid
+    parsingType: 3
+  - name: audioBitRate
+    offset: 2
+    length: 8
+    wrapperName: audiodatarate
+    parsingType: 3
+  - name: audioCodecID
+    offset: 1
+    length: 8
+    wrapperName: audiocodecid
+    parsingType: 3
